@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+     <id>gtkhash</id>
+    <version>1.4</version>
+    <packageSourceUrl>https://github.com/tristanheaven/gtkhash</packageSourceUrl>
+    <owners>hoek</owners>
+    
+    <title>gtkhash (Install)</title>
+    <authors>Tristan Heaven</authors>
+    <projectUrl>https://gtkhash.org/</projectUrl>
+    <iconUrl>https://dashboard.snapcraft.io/site_media/appmedia/2020/01/gtkhash.png</iconUrl>
+    <copyright>1991 GtkHash Tristan Heaven</copyright>
+    <licenseUrl>https://github.com/tristanheaven/gtkhash/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/tristanheaven/gtkhash</projectSourceUrl>
+    <docsUrl>https://github.com/tristanheaven/gtkhash/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/tristanheaven/gtkhash/issues</bugTrackerUrl>
+    <tags>gtkhash</tags>
+    <summary>A cross-platform desktop utility for computing message digests or checksums</summary>
+    <description>GtkHash is a desktop utility for computing message digests or checksums. Most well-known hash functions are supported, including MD5, SHA1, SHA2 (SHA256/SHA512), SHA3 and BLAKE2.
+    It's designed to be an easy to use, graphical alternative to command-line tools such as md5sum.</description>
+    <releaseNotes>
+    - Added CRC32C
+    - Replaced the word "Digest" with "Checksum" in some places (#40)
+    - Added a separate hash button for each function (#50)
+    - Added preference to show/hide HMAC feature
+    - Fixed translations not showing on Windows and Snap package
+    - Reduced Windows install size
+    </releaseNotes>
+
+    <dependencies>
+      <dependency id="chocolatey" version="0.10.15" />
+    </dependencies>
+
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
