@@ -1,2 +1,2 @@
 # My Chocolatey Packages
-[Chocolatey](https://chocolatey.org/) packages create an maintained by me :)
+[Chocolatey](https://chocolatey.org/) packages created and maintained by me :)
