@@ -3,7 +3,7 @@
   <metadata>
      <id>gtkhash</id>
     <version>1.4</version>
-    <packageSourceUrl>https://github.com/tristanheaven/gtkhash</packageSourceUrl>
+    <packageSourceUrl>https://github.com/h0ek/chocolatey-packages/tree/main/self-contained/gtkhash</packageSourceUrl>
     <owners>hoek</owners>
     
     <title>gtkhash (Install)</title>
