@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>typora</id>
+     <version>0.10.9</version>
+     <packageSourceUrl>https://github.com/h0ek/chocolatey-packages/tree/main/self-contained/typora</packageSourceUrl>
+     <owners>hoek</owners>
+    <title>Typora (Install)</title>
+    <authors>Typora</authors>
+    <projectUrl>https://typora.io/</projectUrl>
+    <iconUrl>https://typora.io/img/favicon-64.png</iconUrl>
+    <copyright>typora.io</copyright>
+    <licenseUrl>https://support.typora.io/License-Agreement/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://support.typora.io/</docsUrl>
+    <tags>typora</tags>
+    <summary>Simple markdown editor.</summary>
+    <description>Typora gives you a seamless experience as both a reader and a writer. It removes the preview window, mode switcher, syntax symbols of markdown source code, and all other unnecessary distractions. Instead, it provides a real live preview feature to help you concentrate on the content itself.</description>
+    <releaseNotes>
+    - 0.10.9
+    1. Fix bug for editing issue after images.
+    2. Fix bug that images get updated twice.
+    3. Update Brazilian, Polish, Catalan, and Portuguese translations.
+    4. Fix bug that math block cannot get delete.
+    5. Fix Chinese characters cannot be copied in exported PDF.
+    6. Other small fix.
+    </releaseNotes>
+        <dependencies>
+          <dependency id="chocolatey" version="0.10.15" />
+        </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
